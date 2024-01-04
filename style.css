@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: blue;
+}
+.h{
+    display:flex;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+}
+.nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+.nav a:hover,
+.nav a.active{
+    color:blue;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(-90deg,#021540 65%,#fff 35%);
+    padding: 0 10%;
+}
+.container-home{
+    max-width: 600px;
+    color:#fff;
+    text-align: right;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background: #031540;
+    border: 25px solid #fff;
+}
+.vivek{
+    text-align: center;
+    display: flex;
+    padding: 0px;
+    margin: 28px 275px 122px 25px;
+    /* margin-bottom: 0px; */
+    height: 396px;
+    width: 401px;
+    border-radius: 203px;
+}
+.container-home h2{
+    font-size: 36px;
+    line-height: 5px;
+    padding-bottom: 13px;
+}
+.container-home h3{
+    font-size:32px;
+    line-height: 48px;
+    color: aqua;
+    -webkit-text-stroke: .5px #fff;
+}
+.container-home p{
+    font-size: 16px;
+    margin-top:20px;
+}
+.link a{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 40px;
+    color: aqua;
+    height: 40px;
+    background:transparent;
+    border: 2px solid #fff;
+    border-radius: 250px;
+}
+.btn{
+    margin-top: 15px;
+    padding: 12px 35px;
+    border:1px solid #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #00abf0;
+    color: #fff;
+    box-shadow: 0 0 10px #00abf0;
+    transition: .5s;
+}
+.btn:hover{
+    box-shadow: none;
+}
