@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @vivekvardhan30
 - 👀 I’m interested in web development and software engineer
-- 🌱 I’m currently learning b-tech third year
+- 🌱 I’m currently learning b-tech final year
 - 💞️ I’m looking to collaborate on 
 - 📫 How to reach me gaddamvikky84@gmail.com
 
